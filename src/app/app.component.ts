@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PageApp';
+  title2= 'Hola Mundo - Deploy a Github Pages'
 }

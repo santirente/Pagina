@@ -1,0 +1,19 @@
+.nav-wrapper{
+    height:1000px;
+    background-color: white;
+}
+.imagen{
+    width: 40%;
+    height: 40%;
+}
+
+.letras{
+    font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+.partículas-js{
+    background-color:black;
+}
+ 
