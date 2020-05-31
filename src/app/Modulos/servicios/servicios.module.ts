@@ -12,6 +12,12 @@ import { PinturaComponent } from './pintura/pintura.component';
   imports: [
     CommonModule,
     ServiciosRoutingModule
+  ],
+  exports:[
+    LimpiezaComponent,
+    FontaneriaComponent,
+    AcarreosComponent,
+    PinturaComponent
   ]
 })
 export class ServiciosModule { }

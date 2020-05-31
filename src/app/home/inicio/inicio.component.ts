@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 declare const showCarousel: any;
+declare const ShowPalallax:any;
+declare const ShowSlider: any;
 
 @Component({
   selector: 'app-inicio',
@@ -10,5 +12,12 @@ declare const showCarousel: any;
 export class InicioComponent  {
   Show(){
     showCarousel();
+  }
+  ShowPArallax(){
+    ShowPalallax();
+  }
+  Showslider(){
+    ShowSlider();
+
   }
 }

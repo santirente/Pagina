@@ -1,3 +1,21 @@
 .page-footer{
     background:black;
 }
+.footer-text{
+    font-size: 20px;
+}
+.social-container{
+    width: 100%;
+    height: 100px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .social-container a{
+    color:#ffff;
+    font-size: 35px;
+    margin:0px 20px;
+    border-radius: 10px;
+  }

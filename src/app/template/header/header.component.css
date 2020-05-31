@@ -1,12 +1,8 @@
-.nav-wrapper{
-    height:1000px;
-    background-color: white;
-}
-.imagen{
-    width: 40%;
-    height: 40%;
-}
 
+.imagen{
+    width: 50%;
+    height: 1%;
+}
 .letras{
     font-style:italic;
   font-weight:bold;
@@ -16,4 +12,16 @@
 .partículas-js{
     background-color:black;
 }
+.nav-content{
+    background:#C92305;
+}
+
+.icon-block {
+    padding: 0 15px;
+  }
+.icon-block .material-icons {
+      font-size: inherit;
+  } 
+
+
  
