@@ -18,5 +18,14 @@
     margin-top: 20px;
     padding: 0 50px;
     border-radius: 10px;
+}
+.slider
+{
+    width: 100%px;
+    height: 70%px;
 
+}
+.responsive-img{
+    width: 100%px;
+    height: 70%px;
 }

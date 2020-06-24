@@ -18,6 +18,6 @@ export class InicioComponent  {
   }
   Showslider(){
     ShowSlider();
-
+ 
   }
 }

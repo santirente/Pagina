@@ -1,44 +1,150 @@
-<nav class="black" role="navigation">
-  <div class="nav-wrapper container container nav">
-    <a id="logo-container" href="#" class="brand-logo">
-      <!--<i class="large material-icons">house</i>-->
-      <img class="imagen"src="../../../assets/img/imageonline-co-transparentimage.png">
-    </a>
-    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<div class="titulo"><a href="#"> <img src="../../../assets/img/Muñecos.png" class="image"></a></div>
+<nav role="navigation" class="NavBar">
+  <div class="nav-wrapper fixed">
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"></a>
 
-    <ul class="right hide-on-med-and-down">
-      <li><a class="" href="user/limpieza">Limpieza</a></li>
-      <li><a class="" href="user/fontaneria">Fontaneria</a></li>
-      <li><a class="" href="user/acarreos">Acarreos</a></li>
-      <li><a class="" href="user/pintura">Pintura</a></li>
-      <li><a href="#" class="btn white black-text waves waves-effect waves-blue-grey lighten-1">Home</a></li>
+    <ul class="right hide-on-med-and-down" id="navbar-items">
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Limpieza" href="#">
+          Limpieza</a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Fontaneria" href="#">
+          Fontaneria</a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Pinturas" href="#">
+          Pintura </a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Cerrajeria" href="#">
+          Cerrajeria </a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Electricidad" href="#">
+          Electricidad </a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Otros" href="#">
+          Otros </a>
+      </li>
     </ul>
-
+    <!--DropDown Limpieza-->
+    <ul id="dropdown-Limpieza" class="dropdown-content">
+      <li><a href="limpieza/pisos-turisticos" id="black" style="background-color:#DA5C00; color: white;">Pisos Turisticos</a></li>
+      <li><a href="limpieza/chalets" id="black" style="background-color:#DA5C00; color: white;">Chalets</a></li>
+      <li><a href="limpieza/vecinos"  id="black" style="background-color:#DA5C00; color: white;">Vecinos</a></li>
+      <li><a href="limpieza/fin-de-obra" id="black" style="background-color:#DA5C00; color: white;">Fin de Obra</a></li>
+      <li><a href="limpieza/naves" id="black" style="background-color:#DA5C00; color: white;">Naves</a></li>
+      <li><a href="limpieza/oficinas" id="black" style="background-color:#DA5C00; color: white;">Oficinas</a></li>
+    </ul>
+    <!--DropDown Fontaneria-->
+    <ul id="dropdown-Fontaneria" class="dropdown-content">
+      <li><a href="fontaneria/desatrancos"  id="black" style="background-color:#DA5C00; color: white;">Desatrancos</a></li>
+      <li><a href="fontaneria/cambio-cisterna" id="black" style="background-color:#DA5C00; color: white;">Cisternas</a></li>
+      <li><a href="fontaneria/grifos" id="black" style="background-color:#DA5C00; color: white;">Grifos</a></li>
+      <li><a href="fontaneria/latiguillos" id="black" style="background-color:#DA5C00; color: white;">Latiguillas</a></li>
+      <li><a href="fontaneria/mamaparas" id="black" style="background-color:#DA5C00; color: white;">Mamparas</a></li>
+    </ul>
+     
+          <!--DropDown Pintura-->
+          <ul id="dropdown-Pinturas" class="dropdown-content">
+            <li><a href="pintura/preparacion-superficie" id="black" style="background-color:#DA5C00; color: white;">Preparacion de Superficie</a></li>
+            <li><a href="pintura/exterior-interior" id="black" style="background-color:#DA5C00; color: white;">Pintura Interior y Exterior</a></li>
+         </ul>
+         <!--DropDown Cerrajeria-->
+         <ul id="dropdown-Cerrajeria" class="dropdown-content">
+          <li><a href="cerrajeria/cerraduras" id="black" style="background-color:#DA5C00; color: white;">Cerraduras</a></li>
+          <li><a href="cerrajeria/Bombones" id="black" style="background-color:#DA5C00; color: white;">Bombones</a></li>
+          <li><a href="cerrajeria/Apertura-Pueras" id="black" style="background-color:#DA5C00; color: white;">Aperturas de cerraduras</a></li>
+       </ul>
+       <!--DropDown Cerrajeria-->
+         <ul id="dropdown-Electricidad" class="dropdown-content">
+          <li><a href="electricidad/lamparas" id="black" style="background-color:#DA5C00; color: white;">Lamparas</a></li>
+          <li><a href="electricidad/interruptores" id="black" style="background-color:#DA5C00; color: white;">Interruptores</a></li>
+          <li><a href="electricidad/vitroceramica" id="black" style="background-color:#DA5C00; color: white;">Vitroceramicas</a></li>
+          <li><a href="electricidad/termos-electricos" id="black" style="background-color:#DA5C00; color: white;">Termos Electricos</a></li>
+       </ul>
+      <!--DropDown Otros-->
+         <ul id="dropdown-Otros" class="dropdown-content">
+          <li><a href="otros/muebles-cocina" id="black" style="background-color:#DA5C00; color: white;">Muebles de Cocina</a></li>
+          <li><a href="otros/muebles-habitacion" id="black" style="background-color:#DA5C00; color: white;">Alcobas</a></li>
+          <li><a href="otros/persianas" id="black" style="background-color:#DA5C00; color: white;">Persianas</a></li>
+          <li><a href="otros/falso-techo" id="black" style="background-color:#DA5C00; color: white;">Falso Techo</a></li>
+          <li><a href="otros/puertas" id="black" style="background-color:#DA5C00; color: white;">Puertas Lavadoras y Neveras</a></li>
+       </ul>
+       
+    <!--nav-mobile-->
     <ul id="nav-mobile" class="sidenav">
-      <li><a class="" href="user/limpieza">Limpieza</a></li>
-      <li><a class="" href="user/fontaneria">Fontaneria</a></li>
-      <li><a class="" href="user/acarreos">Acarreos</a></li>
-      <li><a class="" href="user/pintura">Pintura</a></li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Limpieza1" href="#">
+          Limpieza</a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Fontaneria1" href="#">
+          Fontaneria</a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Pinturas1" href="#">
+          Pintura </a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Cerrajeria1" href="#">
+          Cerrajeria </a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Electricidad1" href="#">
+          Electricidad </a>
+      </li>
+      <li>
+        <a class="dropdown-trigger" data-target="dropdown-Otros1" href="#">
+          Otros </a>
+      </li>
       <li><a href="#" class="btn white black-text waves waves-effect waves-blue-grey lighten-1">Home</a></li>
     </ul>
+
+        <!--DropDown Limpieza-->
+        <ul id="dropdown-Limpieza1" class="dropdown-content">
+          <li><a href="limpieza/pisos-turisticos" id="white">Pisos Turisticos</a></li>
+          <li><a href="limpieza/chalets" class="white">Chalets</a></li>
+          <li><a href="limpieza/vecinos"  class="white">Vecinos</a></li>
+          <li><a href="limpieza/fin-de-obra" class="white">Fin de Obra</a></li>
+          <li><a href="limpieza/naves"  class="white">Naves</a></li>
+          <li><a href="limpieza/oficinas"  class="white">Oficinas</a></li>
+        </ul>
+        <!--DropDown Fontaneria-->
+        <ul id="dropdown-Fontaneria1" class="dropdown-content">
+          <li><a href="fontaneria/desatrancos"  class="white">Desatrancos</a></li>
+          <li><a href="fontaneria/cambio-cisterna"  class="white">Cisternas</a></li>
+          <li><a href="fontaneria/grifos"  class="white">Grifos</a></li>
+          <li><a href="fontaneria/latiguillos"  class="white">Latiguillas</a></li>
+          <li><a href="fontaneria/mamaparas"  class="white">Mamparas</a></li>
+        </ul>
+              <!--DropDown Pintura-->
+              <ul id="dropdown-Pinturas1" class="dropdown-content">
+                <li><a href="pintura/preparacion-superficie"  class="white">Preparacion de Superficie</a></li>
+                <li><a href="pintura/exterior-interior"  class="white">Pintura Interior y Exterior</a></li>
+             </ul>
+             <!--DropDown Cerrajeria-->
+             <ul id="dropdown-Cerrajeria1" class="dropdown-content">
+              <li><a href="cerrajeria/cerraduras"  class="white">Cerraduras</a></li>
+              <li><a href="cerrajeria/Bombones"  class="white">Bombones</a></li>
+              <li><a href="cerrajeria/Apertura-Pueras"  class="white">Aperturas de cerraduras</a></li>
+           </ul>
+           <!--DropDown Cerrajeria-->
+             <ul id="dropdown-Electricidad1" class="dropdown-content">
+              <li><a href="electricidad/lamparas"  class="white">Lamparas</a></li>
+              <li><a href="electricidad/interruptores"  class="white">Interruptores</a></li>
+              <li><a href="electricidad/vitroceramica"  class="white">Vitroceramicas</a></li>
+              <li><a href="electricidad/termos-electricos" class="white">Termos Electricos</a></li>
+           </ul>
+          <!--DropDown Otros-->
+             <ul id="dropdown-Otros1" class="dropdown-content">
+              <li><a href="otros/muebles-cocina" class="white">Muebles de Cocina</a></li>
+              <li><a href="otros/muebles-habitacion" class="white">Alcobas</a></li>
+              <li><a href="otros/persianas" class="white">Persianas</a></li>
+              <li><a href="otros/falso-techo" class="white">Falso Techo</a></li>
+              <li><a href="otros/puertas" class="white">Puertas Lavadoras y Neveras</a></li>
+           </ul>
   </div>
 </nav>
-<!--<nav class="nav-extended">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo center"><img class="imagen"src="../../../assets/img/LetrasPng.png"></a>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-    </div>
-      <li class="tabs center">
-        <ul class="tab"><a class="letras waves-effect waves black-text"href="user/limpieza">Limpieza</a></ul>
-        <ul class="tab"><a class="letras waves-effect waves black-text" href="user/fontaneria">Fontaneria</a></ul>
-        <ul class="tab"><a class="letras waves-effect waves black-text" href="user/acarreos">Acarreos</a></ul>
-        <ul class="tab"><a class="letras waves-effect waves black-text" href="user/pintura">Pintura</a></ul>
-        </li>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li class="tab"><a class="letras waves-effect waves black-text"href="user/limpieza">Limpieza</a></li>
-        <li class="tab"><a class="letras waves-effect waves black-text" href="user/fontaneria">Fontaneria</a></li>
-        <li class="tab"><a class="letras waves-effect waves black-text" href="user/acarreos">Acarreos</a></li>
-        <li class="tab"><a class="letras waves-effect waves black-text" href="user/pintura">Pintura</a></li>
-      </ul>
-  </nav>-->

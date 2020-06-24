@@ -1,8 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { InicioComponent } from './home/inicio/inicio.component';
-import { ServiciosModule } from './Modulos/servicios/servicios.module';
 import { PageNotFoundComponent } from './home/page-not-found/page-not-found.component';
+import { CerrajeriaRoutingModule } from './Modules/cerrajeria/cerrajeria-routing.module';
+import { ElectricidadRoutingModule } from './Modules/electricidad/electricidad-routing.module';
+import { FontaneriaRoutingModule } from './Modules/fontaneria/fontaneria-routing.module';
+import { LimpiezaRoutingModule } from './Modules/limpieza/limpieza-routing.module';
+import { OtrosRoutingModule } from './Modules/otros/otros-routing.module';
+import { PinturaRoutingModule } from './Modules/pintura/pintura-routing.module';
 
 const routes: Routes = [
   {
@@ -22,7 +27,13 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes),
-  ServiciosModule
+    CerrajeriaRoutingModule,
+    ElectricidadRoutingModule,
+    FontaneriaRoutingModule,
+    LimpiezaRoutingModule,
+    OtrosRoutingModule,
+    PinturaRoutingModule
+
   ],
   exports: [RouterModule]
 })

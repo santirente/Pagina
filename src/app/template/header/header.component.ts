@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 declare const Showsidenav:any;
+declare const ShowDrop:any;
 
 @Component({
   selector: 'app-header',
@@ -11,6 +12,9 @@ export class HeaderComponent  {
 
   Showside(){
     Showsidenav();
+  }
+  ShowDropDown(){
+    ShowDrop();
   }
  
 }

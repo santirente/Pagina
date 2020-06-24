@@ -8,13 +8,15 @@ import { FooterComponent } from './template/footer/footer.component';
 import { InicioComponent } from './home/inicio/inicio.component';
 import { PageNotFoundComponent } from './home/page-not-found/page-not-found.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     InicioComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+   
   ],
   imports: [
     BrowserModule,
