@@ -3,7 +3,7 @@
     height: 300px;
 }
 .parallax-container {
-    height:200px;
+    height:50px;
  }
 .carousel{
     height: 300px;
@@ -29,3 +29,43 @@
     width: 100%px;
     height: 70%px;
 }
+.contenedor{
+    width: 100%;
+    margin: auto;
+}
+.img{
+    width: 100%;
+}
+.persona__columna{
+    margin: 5px;
+}
+.Imagenes.contenedor{
+    display: grid;
+}
+@media(min-width:520px){
+    .Imagenes.contenedor{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+@media(min-width:728px){
+    .Imagenes.contenedor{
+        grid-template-columns: repeat(3,33.33%);
+    }
+}
+
+@media(min-width:1024px){
+    .Imagenes.contenedor{
+        grid-template-columns: repeat(4,25%);
+    }
+    .contenedor{
+        width: 1024px;
+    }
+
+}
+ @media(min-width:1200px){
+        .contenedor{
+            width: 1200px;
+        }
+    }
+
